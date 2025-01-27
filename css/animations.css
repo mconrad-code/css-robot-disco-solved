@@ -1,0 +1,307 @@
+.robot-eye-left,
+.robot-pupil-left {
+  animation-name: left-eye-scale;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes left-eye-scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.robot-eye-right,
+.robot-pupil-right {
+  animation-name: right-eye-scale;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 2s;
+}
+
+@keyframes right-eye-scale {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.robot-hair-one {
+  animation-name: hair-one;
+  animation-duration: 7s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+@keyframes hair-one {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid red;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid blue;
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-hair-two {
+  animation-name: hair-two;
+  animation-duration: 7s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes hair-two {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid firebrick;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid rgb(61, 140, 243);
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-hair-three {
+  animation-name: hair-three;
+  animation-duration: 7s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+
+@keyframes hair-three {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid crimson;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid rgb(125, 235, 251);
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-hair-four {
+  animation-name: hair-four;
+  animation-duration: 7s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+@keyframes hair-four {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid darkred;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid rgb(173, 240, 251);
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-hair-five {
+  animation-name: hair-five;
+  animation-duration: 7s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+
+@keyframes hair-five {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid firebrick;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid rgb(61, 140, 243);
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-hair-six {
+  animation-name: hair-six;
+  animation-duration: 7s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
+}
+
+@keyframes hair-six {
+  from {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid red;
+  }
+  to {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 75px solid blue;
+    transform: translateY(-50px) rotate(360deg) translateY(50px);
+  }
+}
+
+.robot-ear-left {
+  animation-name: ear-left;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+}
+
+@keyframes ear-left {
+  from {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 100px solid rgb(250, 250, 58);
+    border-bottom: 50px solid transparent;
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-75px, -75px) rotate(75deg);
+  }
+}
+
+.robot-ear-right {
+  animation-name: right-ear;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+@keyframes right-ear {
+  from {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid rgb(250, 250, 58);
+    border-bottom: 50px solid transparent;
+  }
+
+  to {
+    transform: translate(75px, -75px) rotate(-75deg);
+  }
+}
+
+.robot-teeth {
+  transition-delay: 0s;
+  transition-duration: 3s;
+  transition-property: all;
+  -o-transition-timing-function: ease-in-out;
+}
+
+.robot-teeth:hover {
+  opacity: 0;
+}
+
+.robot-nose {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: yellow;
+  border: 2px darkgray solid;
+  bottom: 250px;
+  left: 250px;
+  opacity: 85%;
+  animation-name: nose-8;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes nose-8 {
+  0% {
+    bottom: 250px;
+    left: 250px;
+  }
+
+  12.5% {
+    bottom: 395px;
+    left: 250px;
+  }
+
+  25% {
+    bottom: 395px;
+    left: 0px;
+  }
+
+  37.5% {
+    bottom: 175px;
+    left: 0px;
+  }
+
+  50% {
+    bottom: 250px;
+    left: 250px;
+  }
+  62.5% {
+    bottom: 395px;
+    left: 250px;
+  }
+
+  75% {
+    bottom: 395px;
+    left: 475px;
+  }
+
+  87.5% {
+    bottom: 175px;
+    left: 475px;
+  }
+
+  100% {
+    bottom: 250px;
+    left: 250px;
+  }
+}
